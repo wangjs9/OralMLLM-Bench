@@ -1,0 +1,6 @@
+test.py
+dataset/
+.history/
+results/
+*.log
+__pycache__/

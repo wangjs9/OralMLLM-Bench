@@ -1,0 +1,25 @@
+{
+    "Periapical Radiographs": {
+        "Tooth & Lesion Localization": ["Caries Detection", "Tooth Defect Detection", "Periapical Lesion Detection"],
+        "Deep Caries Assessment": ["Caries Detection"],
+        "Root Filling Quality Assesssment": ["Root Filling Detection"],
+        "Caries Progression Risk Prediction": ["Caries Detection", "Tooth & Lesion Localization", "Deep Caries Assessment"],
+        "Poor Root Filling Risk Prediction": ["Root Filling Detection", "Root Filling Quality Assesssment"],
+        "Tooth Survival Prognosis": ["Tooth Defect Detection", "Periapical Lesion Detection", "Deep Caries Assessment", "Caries Progression Risk Prediction", "Poor Root Filling Risk Prediction"],
+        "Treatment Recommendation": ["Caries Detection", "Periapical Lesion Detection", "Deep Caries Assessment", "Root Filling Quality Assesssment", "Tooth Defect Detection", "Tooth Survival Prognosis"],
+        "Extraction Recommendation": ["Tooth Survival Prognosis"]
+    },
+    "Panoramic Radiographs": {
+        "Third Molar Relation Assessment": ["Third Molar Detection"],
+        "Alveolar Bone Loss Grading": ["Aveolar Bone Loss Detection"],
+        "Impacted Molar Risk Prediction": ["Third Molar Detection", "Third Molar Relation Assessment"],
+        "Bone Loss–Related Risk Prediction": ["Aveolar Bone Loss Detection", "Alveolar Bone Loss Grading"],
+        "Third Molar Extraction Recommendation": ["Third Molar Detection", "Third Molar Relation Assessment", "Impacted Molar Risk Prediction"],
+        "CBCT Referral Recommendation": ["Jaw Lesion Detection", "Embedded Tooth Detection", "Third Molar Relation Assessment", "Alveolar Bone Loss Grading"]
+    },
+    "Lateral Cephalometric Radiographs": {
+        "Cervical Maturation Staging": ["Cervical Vertebra Morphology Recognition"],
+        "Growth Potential Prediction": ["Cervical Maturation Staging"],
+        "Orthopedic Treatment Window Evaluation": ["Cervical Maturation Staging", "Growth Potential Prediction"]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "Periapical Radiographs": {
+        "Caries Detection": "Is dental caries present in the image? Please answer with a simple 'Yes' or 'No'.",
+        "Tooth Defect Detection": "Is there any obvious tooth defect or structural loss? Please answer with a simple 'Yes' or 'No'.",
+        "Restoration Detection": "Is a coronal restoration present in the image? Please answer with a simple 'Yes' or 'No'.",
+        "Root Filling Detection": "Is a root filling present in the image? Please answer with a simple 'Yes' or 'No'.",
+        "Periapical Lesion Detection": "Is a periapical lesion present in the image? Please answer with a simple 'Yes' or 'No'.",
+        "Tooth & Lesion Localization": "Which teeth (FDI) show abnormalities and what types of abnormalities are present for each tooth in the image? Please answer with a comma-separated list of FDI numbers and the type of abnormality for each tooth.",
+        "Deep Caries Assessment": "Does any tooth show signs of deep caries approaching or involving the pulp in the image? Please answer with a simple 'Yes' or 'No'.",
+        "Root Filling Quality Assesssment": "Does any tooth exhibit inadequate root canal filling quality in the image? Please answer with a simple 'Yes' or 'No'.",
+        "Caries Progression Risk Prediction": "Are there any untreated deep caries lesions with potential or manifest pulp/periapical involvement in the image? Speciify the teeth (FDI notation) and provide the rationale. If no such issues exist, please answer None.",
+        "Poor Root Filling Risk Prediction": "Are there any subpotimal root canal fillings posing a risk for future pulpitis recurreence or periapical lesions development in the image? Specify the teeth (FDI notation) and provide the rationale. If no such issues exist, please answer None.",
+        "Tooth Survival Prognosis": "Are there any severely damaged crowns or residual root at high risk of fracture, mobility, or requiring extraction in the image? Specify the teeth (FDI notation) and provide the rationale. If no such issues exist, please answer None.",
+        "Treatment Recommendation": "Does any tooth require filling or root canal treatment in the image? Identify the affected teeth (FDI notation), the required treatment, and provide the clinical justification. If no such issues exist, please answer None.",
+        "Extraction Recommendation": "Is there any tooth that is recommened for extraction in the image? Identify the affected teeth (FDI notation) and provide the clinical justification. If no such issues exist, please answer None."
+    },
+    "Panoramic Radiographs": {
+        "Third Molar Detection": "Are there any third molars or developing tooth germs present in the image? Please answer with a simple 'Yes' or 'No'. Specify their presence across the four quadrants (Order: right maxilla, left maxilla, left mandible, right mandible).",
+        "Jaw Lesion Detection": "Are there any abnormal radiolucent jaw lesions present in the image? Please answer with a simple 'Yes' or 'No'. Specify their presence across the four quadrants (Order: right maxilla, left maxilla, left mandible, right mandible).",
+        "Aveolar Bone Loss Detection": "Is there significant alveolar bone loss present in the image? Please answer with a simple 'Yes' or 'No'. Specify its presence across the maxillary and mandibular sextants (Order: maxillary anterior, mandibular anterior, right maxillary posterior, left maxillary posterior, left mandibular posterior, right mandibular posterior).",
+        "Embedded Tooth Detection": "Are there any embedded non-third-molar teeth present in the image? Please answer with a simple 'Yes' or 'No'. Specify their presence across the four quadrants (Order: right maxilla, left maxilla, left mandible, right mandible).",
+        "Third Molar Relation Assessment": "Are there any impacted third molars exerting pressure on the mesial surface of adjacent teeth in the image? Please answer with a simple 'Yes' or 'No'. Specify their presence across the four quadrants (Order: right maxilla, left maxilla, left mandible, right mandible).",
+        "Alveolar Bone Loss Grading": "Is there severe alveolar bone loss (>50% root length) present in the image? Please answer with a simple 'Yes' or 'No'. Specify its presence across the sextants (Order: maxillary anterior, mandibular anterior, right maxillary posterior, left maxillary posterior, left mandibular posterior, right mandibular posterior).",
+        "Impacted Molar Risk Prediction": "Are there any impacted third molars posing a risk of pathology (e.g., caries or root resorption) to adjacent teeth in the image? Specify the affected quadrants and provide the rationale. If no such issues exist, please answer None.",
+        "Bone Loss–Related Risk Prediction": "Are there any regions with alveolar bone loss posing a risk of future tooth mobility or tooth loss in the image? Specify the affected sextants and provide the rationale. If no such issues exist, please answer None.",
+        "Third Molar Extraction Recommendation": "Are there any impacted third molars requiring immediate extraction in the image? Specify the affected quadrants and provide the rationale. If no such issues exist, please answer None.",
+        "CBCT Referral Recommendation": "Based on the radiographic findings, determine if a CBCT referral is clinically necessary for any region. If so, specify the region and provide the clinical rationale for the transition from 2D to 3D imaging. If no such issues exist, please answer None."
+    },
+    "Lateral Cephalometric Radiographs": {
+        "Cervical Vertebra Morphology Recognition": "Do the inferior borders of C2–C4 show concavity, and what are the body shapes of C3 and C4?",
+        "Cervical Maturation Staging": "What is the cervical vertebral maturation stage (CS I–VI) based on the morphology of C2–C4?",
+        "Growth Potential Prediction": "Based on cervical vertebral morphology and maturation stage, does the patient still have significant growth potential? Briefly explain the reason.",
+        "Orthopedic Treatment Window Evaluation": "Determine whether the patient is within a favorable window for orthopedic (growth-modification) treatment, and briefly explain the reason."
+    }
+}
